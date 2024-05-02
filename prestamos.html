@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="./media/logo.png">
+
+	<!-- Boxicons -->
+	<link href='./css/boxicons.min.css' rel='stylesheet'>
+    <!-- Bootstrap Bootwatch Lux -->
+	<link href='./css/bootstrap.min.css' rel='stylesheet'>
+	<!-- My CSS -->
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/style2.css">
+	<link rel="stylesheet" href="./css/buscar.css">
+
+	<title>IMDEBRUZ - Prestamos</title>
+</head>
+<body>
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+			<nav>
+				<form action="#">
+					<div class="form-input">
+						<input type="search" placeholder="Buscar">
+						<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+					</div>
+				</form>
+				<span id="datetime"> </span> 
+				<input type="checkbox" id="switch-mode" hidden>
+				<a href="#" class="notification">
+					<i class='bx bxs-bell' ></i>
+					<span class="num">8</span>
+				</a>
+				<a href="#" class="profile">
+					<img src="media/gigachad.jpg">
+				</a>
+			</nav>
+			<!-- NAVBAR -->
+			
+		<!-- MAIN -->
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Prestamos</h1>
+					<ul class="breadcrumb">
+						<li>
+							<a href="#">Sistema de Inventario IMDEBRUZ</a>
+						</li>
+						<li><i class='bx bx-chevron-right' ></i></li>
+						<li>
+							<a class="active" href="./prestamos.html">Prestamos</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<ul class="box-info">
+				<li>
+					<i class='bx bxs-user-check' ></i>
+					<span class="text">
+						<h3>53</h3>
+						<p>Prestamos Totales</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-user' ></i>
+					<span class="text">
+						<h3>35</h3>
+						<p>Entrenadores</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-face' ></i>
+					<span class="text">
+						<h3>13</h3>
+						<p>Atletas</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-user-circle' ></i>
+					<span class="text">
+						<h3>5</h3>
+						<p>Otras Personas</p>
+					</span>
+				</li>
+			</ul>
+
+
+			<div class="table-data">
+				<div class="order">
+					<div class="head">
+						<h3>Prestamos</h3>
+						<i class='bx bx-search' ></i>
+						<i class='bx bx-filter' ></i>
+					</div>
+					<table id="example">
+						<thead>
+							<tr>
+								<th>Nombre y Apellido</th>
+								<th>Fecha de Entrega</th>
+								<th>Fecha a Devolver</th>
+								<th>Estatus</th>
+								<th>Teléfono</th>
+								<th>Descripción</th>
+								<th></th>
+								<th></th>
+								<th><a href="#" class="bg-anadir">Añadir</a></th>
+							</tr>
+							<tbody>
+								<tr>
+									<td>
+										<img src="media/gigachad.jpg">
+										<p>Jose Vargas</p>
+									  </a>
+									</td>
+									<td>20/05/2023<br>3:30PM</td>
+									<td>20/05/2024<br>3:30PM</td>
+									<td>Entrenador</td>
+									<td>0425-3482384</td>
+									<td>3 Balones de Fútbol</td>
+									<td><a href="./informacion detallada.html" class="status process">Información Detallada</a></td>
+									<td><a href="./editar.html" class="status completed bg-info">Editar</a></td>
+									<td><a href="./eliminar.html" class="status pending">Eliminar</a></td>
+								</tr>
+
+								<tr>
+									<td>
+										<img src="media/gigachad.jpg">
+										<p>Francisco Lopez</p>
+									  </a>
+									</td>
+									<td>21/07/2023<br>6:00AM</td>
+									<td>21/07/2023<br>3:30PM</td>
+									<td>Atleta</td>
+									<td>0412-1111111</td>
+									<td>1 Balon de Basquet</td>
+									<td><a href="./informacion detallada.html" class="status process">Información Detallada</a></td>
+									<td><a href="./editar.html" class="status completed bg-info">Editar</a></td>
+									<td><a href="./eliminar.html" class="status pending">Eliminar</a></td>
+								</tr>
+								  
+								<tr>
+									<td>
+										<img src="media/gigachad.jpg">
+										<p>Juan Oviedo</p>
+									  </a>
+									</td>
+									<td>03/02/2024<br>7:23PM</td>
+									<td class="text-danger">05/03/2024<br>10:00AM</td>
+									<td>Atleta</td>
+									<td>0101-0101010</td>
+									<td>2 Raquetas de Tenis de Mesa</td>
+									<td><a href="./informacion detallada.html" class="status process">Información Detallada</a></td>
+									<td><a href="./editar.html" class="status completed bg-info">Editar</a></td>
+									<td><a href="./eliminar.html" class="status pending">Eliminar</a></td>
+								</tr>
+
+								<tr>
+									<td>
+										<img src="media/gigachad.jpg">
+										<p>Ovi Sucre</p>
+									  </a>
+									</td>
+									<td>07/09/2023<br>4:12PM</td>
+									<td>29/02/2024<br>10:00AM</td>
+									<td>Otras Personas</td>
+									<td>0101-0101010</td>
+									<td>1 Proyector</td>
+									<td><a href="./informacion detallada.html" class="status process">Información Detallada</a></td>
+									<td><a href="./editar.html" class="status completed bg-info">Editar</a></td>
+									<td><a href="./eliminar.html" class="status pending">Eliminar</a></td>
+								</tr>
+								  
+							  </tbody>
+					</table>
+				</div>
+			
+			</div>
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- CONTENT -->
+	
+
+	<script src="javascript/script.js"></script>
+	<script src="javascript/buscar.js"></script>
+	<script src="javascript/buscar2.js"></script>
+	<script src="javascript/buscar3.js"></script>
+	<script src="javascript/buscar4.js"></script>
+	<script type="text/javascript">new DataTable('#example');</script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="./media/logo.png">
+
+	<!-- Boxicons -->
+	<link href='./css/boxicons.min.css' rel='stylesheet'>
+    <!-- Bootstrap Bootwatch Lux -->
+	<link href='./css/bootstrap.min.css' rel='stylesheet'>
+	<!-- My CSS -->
+	<link rel="stylesheet" href="./css/style.css">
+
+	<title>IMDEBRUZ - Inventario</title>
+</head>
+<body>
+
+	<!-- CONTENT -->
+	<section id="content">
+
+		<!-- NAVBAR -->
+			<nav>
+				<form action="#">
+					<div class="form-input">
+						<input type="search" placeholder="Buscar">
+						<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+					</div>
+				</form>
+				<span id="datetime"> </span> 
+				<input type="checkbox" id="switch-mode" hidden>
+				<a href="#" class="notification">
+					<i class='bx bxs-bell' ></i>
+					<span class="num">8</span>
+				</a>
+				<a href="#" class="profile">
+					<img src="media/gigachad.jpg">
+				</a>
+			</nav>
+			<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Inventario General</h1>
+					<ul class="breadcrumb">
+						<li>
+							<a href="#">Sistema de Inventario IMDEBRUZ</a>
+						</li>
+						<li><i class='bx bx-chevron-right' ></i></li>
+						<li>
+							<a class="active" href="./inventario.html">Inventario General</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<ul class="box-info">
+				<li>
+					<i class='bx bxs-box' ></i>
+					<span class="text">
+						<h3>234</h3>
+						<p>Materiales Totales</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-purchase-tag' ></i>
+					<span class="text">
+						<h3>23</h3>
+						<p>Prestamos Totales</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-face' ></i>
+					<span class="text">
+						<h3>11</h3>
+						<p>Atletas, Entrenadores y Otras Personas</p>
+					</span>
+				</li>
+			</ul>
+
+
+			<div class="table-data">
+				<div class="order">
+					<div class="head">
+						<h3>Inventario General</h3>
+						<i class='bx bx-search' ></i>
+						<i class='bx bx-filter' ></i>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>Material</th>
+								<th>Cantidad<br>Almacen-Total</th>
+								<th>Prestamos</th>
+								<th>ID General</th>
+								<th>Descripción</th>
+								<th></th>
+								<th></th>
+								<th></th>
+							</tr>
+							<tbody>
+								<tr>
+									<td>
+										<img src="./media/pelotafutbol.jpg">
+										<p>Pelota de Fútbol</p>
+									  </a>
+									</td>
+									<td>20/25</td>
+									<td>5</td>
+									<td>#PELOTAFOOTBALL</td>
+									<td>Pelota del deporte Fútbol</td>
+									<td><a href="./prestamos.html" class="status process">Ver Prestamos</a></td>
+									<td><a href="./anadir.html" class="status completed">Añadir</a></td>
+									<td><a href="./eliminar.html" class="status pending">Eliminar</a></td>
+								  </tr>
+								  
+								  <tr>
+									<td>
+										<img src="./media/pelotabaloncesto.jpg">
+										<p>Balón de Baloncesto</p>
+									  </a>
+									</td>
+									<td>15/20</td>
+									<td>3</td>
+									<td>#BALONBALONCESTO</td>
+									<td>Balón del deporte Baloncesto</td>
+									<td><a href="./prestamos.html" class="status process">Ver Prestamos</a></td>
+									<td><a href="./anadir.html" class="status completed">Añadir</a></td>
+									<td><a href="./eliminar.html" class="status pending">Eliminar</a></td>
+								  </tr>
+								  
+								  <tr>
+									<td>
+										<img src="./media/raquetatenis.jpg">
+										<p>Raqueta de Tenis</p>
+									  </a>
+									</td>
+									<td>10/15</td>
+									<td>2</td>
+									<td>#RAQUETATENIS</td>
+									<td>Raqueta del deporte Tenis</td>
+									<td><a href="./prestamos.html" class="status process">Ver Prestamos</a></td>
+									<td><a href="./anadir.html" class="status completed">Añadir</a></td>
+									<td><a href="./eliminar.html" class="status pending">Eliminar</a></td>
+								  </tr>
+								  
+								  <tr>
+									<td>
+										<img src="./media/guantebeisbol.jpg">
+										<p>Guantes de Béisbol</p>
+									  </a>
+									</td>
+									<td>8/12</td>
+									<td>1</td>
+									<td>#GUANTESBEISBOL</td>
+									<td>Guantes del deporte Béisbol</td>
+									<td><a href="./prestamos.html" class="status process">Ver Prestamos</a></td>
+									<td><a href="./anadir.html" class="status completed">Añadir</a></td>
+									<td><a href="./eliminar.html" class="status pending">Eliminar</a></td>
+								  </tr>
+								  
+								  <tr>
+									<td>
+										<img src="./media/bicicletamontana.jpg">
+										<p>Bicicleta de Montaña</p>
+									  </a>
+									</td>
+									<td>7/10</td>
+									<td>1</td>
+									<td>#BICICLETAMONTANA</td>
+									<td>Bicicleta del deporte Ciclismo</td>
+									<td><a href="./prestamos.html" class="status process">Ver Prestamos</a></td>
+									<td><a href="./anadir.html" class="status completed">Añadir</a></td>
+									<td><a href="./eliminar.html" class="status pending">Eliminar</a></td>
+								  </tr>
+								  
+								  <tr>
+									<td>
+										<img src="./media/kimonojudo.jpg">
+										<p>Kimono de Judo</p>
+									  </a>
+									</td>
+									<td>6/8</td>
+									<td>1</td>
+									<td>#KIMONOJUDO</td>
+									<td>Kimono del deporte Judo</td>
+									<td><a href="./prestamos.html" class="status process">Ver Prestamos</a></td>
+									<td><a href="./anadir.html" class="status completed">Añadir</a></td>
+									<td><a href="./eliminar.html" class="status pending">Eliminar</a></td>
+								  </tr>
+
+
+								  <tr>
+									<td>
+									  <img src="./media/futbolamericano.jpg"> <p>Balón de Fútbol Americano</p>
+									</td>
+									<td>25/30</td>
+									<td>4</td>
+									<td>#BALONFUTBOLAMERICANO</td>
+									<td>Balón del deporte Fútbol Americano</td>
+									<td><a href="./prestamos.html" class="status process">Ver Prestamos</a></td>
+									<td><a href="./anadir.html" class="status completed">Añadir</a></td>
+									<td><a href="./eliminar.html" class="status pending">Eliminar</a></td>
+								  </tr>
+								  
+							  </tbody>
+					</table>
+				</div>
+			
+			</div>
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- CONTENT -->
+	
+
+	<script src="javascript/script.js"></script>
+</body>
+</html>
