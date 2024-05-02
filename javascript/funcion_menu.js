@@ -13,7 +13,7 @@ const item_guia_uso = document.getElementById('item_guia_uso');
 item_inicio.addEventListener('click', (event) => {
   event.preventDefault(); // Evita que el enlace cargue una nueva página
 
-  fetch('inicio.html')
+  fetch('inicio2.html')
     .then(response => response.text())
     .then(html => {
         container_contenido.innerHTML = html;
